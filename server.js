@@ -1,6 +1,6 @@
 const express = require("express");
 const connectDB = require("./config/db");
-const port = process.env.PORT || 5000; // this line is used to set the port number to 5000 if the PORT environment variable is not set. https://www.npmjs.com/package/dotenv
+const port = process.env.PORT || 6000; // this line is used to set the port number to 5000 if the PORT environment variable is not set. https://www.npmjs.com/package/dotenv
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 connectDB();
